@@ -5,8 +5,6 @@ import { useState } from 'react';
 export default function BotaoFavorito() {
   const [favorito, setFavorito] = useState(false);
 
-
-  console.log("Renderizei botao")
   return (
     <button 
       onClick={() => setFavorito(!favorito)}
